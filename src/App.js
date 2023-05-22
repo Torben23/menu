@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
+import './index.css';
 const allCategories = ['todo', ...new Set(items.map((item) => item.category))];
 
 function App() {
